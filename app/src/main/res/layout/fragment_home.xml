@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:id="@+id/konu1"
+
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    app:cardElevation="3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/animal"
+            android:scaleType="centerCrop"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="-50dp"
+            android:textSize="22sp"
+            android:background="@color/colorPrimary"
+            android:textColor="#121212"
+            android:textStyle="bold"
+
+            android:gravity="center"
+
+            android:text="ANIMALS"></TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+            android:id="@+id/konu2"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fruit"
+
+                android:scaleType="centerCrop"
+                >
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="-50dp"
+                android:textSize="22sp"
+                android:background="@color/colorPrimary"
+                android:textColor="#121212"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="FRUITS"></TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/konu3"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/verbs"
+
+                    android:scaleType="centerCrop"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:textSize="22sp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#121212"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="VERBS"></TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/konu4"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/color"
+
+                    android:scaleType="centerCrop"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:textSize="22sp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#121212"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="COLOR"></TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/konu5"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/country"
+
+                    android:scaleType="centerCrop"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:textSize="22sp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#121212"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="COUNTRY AND FLAG"></TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/konu6"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mixed"
+
+                    android:scaleType="centerCrop"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:textSize="22sp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#121212"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="MİXED"></TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/konu7"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/profession"
+
+                    android:scaleType="centerCrop"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="-50dp"
+                    android:textSize="22sp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#121212"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="JOBS"></TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

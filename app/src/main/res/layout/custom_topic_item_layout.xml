@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp">
+
+    <TextView
+        android:id="@+id/topic_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Konu1"
+        android:textSize="24sp"
+        android:textColor="#3e3e3e"
+        android:textStyle="bold"
+        android:gravity="center">
+    </TextView>
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learningapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".leaderboard.LeaderboardActivity"></activity>
+        <activity android:name=".ui.quiz.ScoreActivity" />
+        <activity android:name=".chapter.seven.singer" />
+        <activity android:name=".chapter.seven.painter" />
+        <activity android:name=".chapter.seven.chef" />
+        <activity android:name=".chapter.seven.firefighter" />
+        <activity android:name=".chapter.seven.pilot" />
+        <activity android:name=".chapter.six.witch" />
+        <activity android:name=".chapter.six.pirate" />
+        <activity android:name=".chapter.six.queen" />
+        <activity android:name=".chapter.six.dragon" />
+        <activity android:name=".chapter.six.alien" />
+        <activity android:name=".chapter.five.mexico" />
+        <activity android:name=".chapter.five.america" />
+        <activity android:name=".chapter.five.china" />
+        <activity android:name=".chapter.five.india" />
+        <activity android:name=".chapter.five.germany" />
+        <activity android:name=".ui.quiz.StartQuiz" />
+        <activity android:name=".authentication.ProfileActivity" />
+        <activity android:name=".authentication.LoginActivity" />
+        <activity android:name=".authentication.RegisterActivity" />
+        <activity android:name=".chapter.four.brown" />
+        <activity android:name=".chapter.four.yellow" />
+        <activity android:name=".chapter.four.purple" />
+        <activity android:name=".chapter.three.wash" />
+        <activity android:name=".chapter.three.run" />
+        <activity android:name=".chapter.three.drink" />
+        <activity android:name=".chapter.two.plum" />
+        <activity android:name=".chapter.two.peach" />
+        <activity android:name=".chapter.two.grapes" />
+        <activity android:name=".chapter.one.turkey" />
+        <activity android:name=".chapter.one.pig" />
+        <activity android:name=".chapter.one.horse" />
+        <activity android:name=".chapter.four.pink" />
+        <activity android:name=".chapter.four.blue" />
+        <activity android:name=".chapter.three.eat" />
+        <activity android:name=".chapter.three.sleep" />
+        <activity android:name=".chapter.two.apple" />
+        <activity android:name=".chapter.two.banana" />
+        <activity android:name=".chapter.one.goat" />
+        <activity android:name=".chapter.one.cow" />
+        <activity
+            android:name=".chaptertopics.TopicActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
